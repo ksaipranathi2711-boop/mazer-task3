@@ -1,0 +1,25 @@
+/* Custom Card Styles */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #435ebe;
+  font-weight: bold;
+}
+
+.card h6 {
+  color: #888;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1200px;
+}

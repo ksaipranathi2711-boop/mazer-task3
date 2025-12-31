@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mazer Dashboard - Task 3</title>
+
+  <!-- Original Mazer CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+  <!-- Dashboard Cards -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h6>Total Users</h6>
+            <h3 id="totalUsers">0</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h6>Active Users</h6>
+            <h3 id="activeUsers">0</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h6>New Signups</h6>
+            <h3 id="newSignups">0</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS Files -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/dashboard-data.js"></script>
+</body>
+</html>
