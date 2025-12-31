@@ -1,25 +1,21 @@
-/* Custom Card Styles */
-.card {
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-  margin-bottom: 20px;
+body {
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
 }
 
-.card:hover {
-  transform: translateY(-5px);
+.dashboard-card {
+  padding: 30px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.card h3 {
+.dashboard-card h5 {
+  color: #6c757d;
+}
+
+.dashboard-card h3 {
   color: #435ebe;
-  font-weight: bold;
-}
-
-.card h6 {
-  color: #888;
-  font-size: 14px;
-}
-
-.container {
-  max-width: 1200px;
+  font-size: 32px;
+  margin-top: 10px;
 }
